@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-hand: "Caveat", cursive;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Custom Journal & Paper Styling */
+:root {
+  --paper-cream: #faf7f2;
+  --paper-ruled: #ede7dc;
+  --paper-margin: #e6dfd3;
+  --ink-primary: #2d2824;
+  --ink-secondary: #746c63;
+  --ink-accent: #8b5e3c;
+  --ink-pen: #2b3a4a;
+}
+
+/* Subtle paper texture using SVG noise pattern */
+.paper-texture {
+  background-color: #faf7f2;
+  background-image: 
+    radial-gradient(#e4ddd3 0.75px, transparent 0.75px),
+    radial-gradient(#e4ddd3 0.75px, #faf7f2 0.75px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+.paper-clean {
+  background-color: #faf7f2;
+}
+
+/* Ruled notebook line pattern */
+.notebook-ruled {
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 27px,
+    #ede6da 28px
+  );
+  line-height: 28px;
+}
+
+/* Diagonal hatched pattern for free time / empty blocks */
+.hatched-stripes {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(180, 165, 145, 0.15),
+    rgba(180, 165, 145, 0.15) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+}
+
+/* Dot grid pattern for notes & sketches */
+.dot-grid {
+  background-image: radial-gradient(#dcd5c9 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/* Book spine depth effect */
+.book-spine-left {
+  box-shadow: inset -15px 0 20px -10px rgba(44, 38, 30, 0.12);
+}
+
+.book-spine-right {
+  box-shadow: inset 15px 0 20px -10px rgba(44, 38, 30, 0.12);
+}
+
+/* Center book crease */
+.book-crease {
+  background: linear-gradient(
+    to right,
+    rgba(30, 26, 20, 0.08) 0%,
+    rgba(30, 26, 20, 0.18) 48%,
+    rgba(30, 26, 20, 0.22) 50%,
+    rgba(30, 26, 20, 0.18) 52%,
+    rgba(30, 26, 20, 0.08) 100%
+  );
+}
+
+/* Handwritten strikethrough animation */
+@keyframes strikeDraw {
+  from {
+    stroke-dashoffset: 200;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-strike {
+  stroke-dasharray: 200;
+  animation: strikeDraw 0.35s cubic-bezier(0.3, 0.8, 0.3, 1) forwards;
+}
+
+/* Custom scrollbars for clean paper look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d8cebe;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #beaf9b;
+}

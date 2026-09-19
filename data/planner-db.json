@@ -1,0 +1,694 @@
+{
+  "users": [
+    {
+      "id": "user-fiona",
+      "name": "Fiona",
+      "email": "fiona930607@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "tagline": "A calmer today, A brighter tomorrow.",
+      "role": "Journal Curator",
+      "cloudflareVerified": true,
+      "cloudflareTeam": "fiona-planner.cloudflareaccess.com",
+      "password": "a5a069cae78084018f2eef79a05a001a22f4281225a4fc1c0a12e82fa4b140c1"
+    },
+    {
+      "id": "user-alex",
+      "name": "Alex Morgan",
+      "email": "alex.m@example.com",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+      "tagline": "Deep work & mindful progress.",
+      "role": "Member",
+      "password": "a5a069cae78084018f2eef79a05a001a22f4281225a4fc1c0a12e82fa4b140c1"
+    },
+    {
+      "id": "user-elena",
+      "name": "Elena Chen",
+      "email": "elena.chen@example.com",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "tagline": "Creative studio curator.",
+      "role": "Member",
+      "password": "a5a069cae78084018f2eef79a05a001a22f4281225a4fc1c0a12e82fa4b140c1"
+    },
+    {
+      "id": "user-1789793011904-2f2x",
+      "name": "Sarah Connor",
+      "email": "sarah@example.com",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "tagline": "A calmer today, a brighter tomorrow.",
+      "role": "Member",
+      "password": "a5a069cae78084018f2eef79a05a001a22f4281225a4fc1c0a12e82fa4b140c1"
+    },
+    {
+      "id": "user-1789793195562-ejqt",
+      "name": "Crystal",
+      "email": "chienyuchang314@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+      "tagline": "Mindful productivity & daily calm.",
+      "role": "Member",
+      "password": "a5a069cae78084018f2eef79a05a001a22f4281225a4fc1c0a12e82fa4b140c1"
+    },
+    {
+      "id": "user-1789794395698-pack",
+      "uid": "user-1789794395698-pack",
+      "name": "Deployed User",
+      "email": "deployed@test.com",
+      "password": "95da3911bfbdbb830f4f420472b6d2e8a4c54e3980b9335e3b38edec16b6b09c",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "tagline": "A calmer today, a brighter tomorrow.",
+      "role": "Member"
+    },
+    {
+      "id": "user-1789794563775-mku5",
+      "uid": "user-1789794563775-mku5",
+      "name": "tttt",
+      "email": "t@gmail.com",
+      "password": "461ec75420e22f69b9ec66b00657650d06ae6f26f55b9c10bb619aa67878038d",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "tagline": "Mindful productivity & daily calm.",
+      "role": "Member"
+    },
+    {
+      "id": "user-1789794753303-j0fr",
+      "uid": "user-1789794753303-j0fr",
+      "name": "Cloud Test",
+      "email": "cloudrun@domain.com",
+      "password": "46d75398cab40271c70998d0b99891cc571ef88690697a4f14d7b2ecd45658dd",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "tagline": "A calmer today, a brighter tomorrow.",
+      "role": "Member"
+    }
+  ],
+  "todos": [
+    {
+      "id": "todo-sep-1",
+      "userId": "user-fiona",
+      "title": "Reply to email",
+      "date": "2025-09-17",
+      "completed": true,
+      "completedAt": "08:30",
+      "estimatedDuration": 15,
+      "priority": "low",
+      "notes": "Check professor & client inbox"
+    },
+    {
+      "id": "todo-sep-2",
+      "userId": "user-fiona",
+      "title": "LeetCode (2 problems)",
+      "date": "2025-09-17",
+      "completed": false,
+      "completedAt": "10:15",
+      "estimatedDuration": 60,
+      "priority": "medium",
+      "notes": "Dynamic programming & memoization"
+    },
+    {
+      "id": "todo-sep-3",
+      "userId": "user-fiona",
+      "title": "Finish AI report",
+      "date": "2025-09-17",
+      "completed": false,
+      "estimatedDuration": 120,
+      "deadline": "16:00",
+      "priority": "high",
+      "notes": "Benchmark transformer fine-tuning loss",
+      "completedAt": "12:19"
+    },
+    {
+      "id": "todo-sep-4",
+      "userId": "user-fiona",
+      "title": "Read research paper",
+      "date": "2025-09-17",
+      "completed": true,
+      "completedAt": "14:45",
+      "estimatedDuration": 30,
+      "priority": "medium"
+    },
+    {
+      "id": "todo-sep-5",
+      "userId": "user-fiona",
+      "title": "Plan next week",
+      "date": "2025-09-17",
+      "completed": false,
+      "estimatedDuration": 30,
+      "priority": "low",
+      "completedAt": "12:19"
+    },
+    {
+      "id": "todo-sep-6",
+      "userId": "user-fiona",
+      "title": "Buy birthday gift",
+      "date": "2025-09-17",
+      "completed": true,
+      "estimatedDuration": 30,
+      "priority": "low",
+      "completedAt": "12:19"
+    },
+    {
+      "id": "todo-sep-7",
+      "userId": "user-fiona",
+      "title": "Call mom",
+      "date": "2025-09-17",
+      "completed": true,
+      "completedAt": "18:15",
+      "estimatedDuration": 15,
+      "priority": "low"
+    },
+    {
+      "id": "todo-jan-1",
+      "userId": "user-fiona",
+      "title": "Write 2025 annual vision & mindful intentions",
+      "date": "2025-01-15",
+      "completed": true,
+      "completedAt": "09:00",
+      "estimatedDuration": 45,
+      "priority": "high",
+      "notes": "Focus on health, creative writing, and research"
+    },
+    {
+      "id": "todo-jan-2",
+      "userId": "user-fiona",
+      "title": "Studio desk declutter & stationery inventory",
+      "date": "2025-01-15",
+      "completed": true,
+      "completedAt": "11:30",
+      "estimatedDuration": 30,
+      "priority": "low"
+    },
+    {
+      "id": "todo-jan-3",
+      "userId": "user-fiona",
+      "title": "Set up Q1 project milestones & reading schedule",
+      "date": "2025-01-15",
+      "completed": true,
+      "completedAt": "15:20",
+      "estimatedDuration": 60,
+      "priority": "medium"
+    },
+    {
+      "id": "todo-feb-1",
+      "userId": "user-fiona",
+      "title": "Complete Neural Networks chapter 4 problem set",
+      "date": "2025-02-14",
+      "completed": true,
+      "completedAt": "10:00",
+      "estimatedDuration": 90,
+      "priority": "high"
+    },
+    {
+      "id": "todo-feb-2",
+      "userId": "user-fiona",
+      "title": "Reserve botanical bistro table for Valentine dinner",
+      "date": "2025-02-14",
+      "completed": true,
+      "completedAt": "12:15",
+      "estimatedDuration": 15,
+      "priority": "medium"
+    },
+    {
+      "id": "todo-feb-3",
+      "userId": "user-fiona",
+      "title": "Update GitHub portfolio with latest design system",
+      "date": "2025-02-14",
+      "completed": true,
+      "completedAt": "16:40",
+      "estimatedDuration": 45,
+      "priority": "low"
+    },
+    {
+      "id": "todo-mar-1",
+      "userId": "user-fiona",
+      "title": "Spring 10K outdoor run around the lake",
+      "date": "2025-03-18",
+      "completed": true,
+      "completedAt": "07:45",
+      "estimatedDuration": 60,
+      "priority": "medium"
+    },
+    {
+      "id": "todo-mar-2",
+      "userId": "user-fiona",
+      "title": "Submit workshop paper draft to peer review",
+      "date": "2025-03-18",
+      "completed": true,
+      "completedAt": "14:00",
+      "estimatedDuration": 90,
+      "priority": "high"
+    },
+    {
+      "id": "todo-mar-3",
+      "userId": "user-fiona",
+      "title": "Quarterly financial savings & budget audit",
+      "date": "2025-03-18",
+      "completed": true,
+      "completedAt": "17:30",
+      "estimatedDuration": 30,
+      "priority": "low"
+    },
+    {
+      "id": "todo-apr-1",
+      "userId": "user-fiona",
+      "title": "Botanical garden sketch outing & watercolor prep",
+      "date": "2025-04-16",
+      "completed": true,
+      "completedAt": "10:30",
+      "estimatedDuration": 60,
+      "priority": "medium"
+    },
+    {
+      "id": "todo-apr-2",
+      "userId": "user-fiona",
+      "title": "Finalize mobile responsive typography specs",
+      "date": "2025-04-16",
+      "completed": true,
+      "completedAt": "15:10",
+      "estimatedDuration": 45,
+      "priority": "high"
+    },
+    {
+      "id": "todo-may-1",
+      "userId": "user-fiona",
+      "title": "Prepare slides for HCI Conference lighting talk",
+      "date": "2025-05-20",
+      "completed": true,
+      "completedAt": "11:00",
+      "estimatedDuration": 60,
+      "priority": "high"
+    },
+    {
+      "id": "todo-may-2",
+      "userId": "user-fiona",
+      "title": "Repot balcony lavender and rosemary herbs",
+      "date": "2025-05-20",
+      "completed": true,
+      "completedAt": "16:20",
+      "estimatedDuration": 30,
+      "priority": "low"
+    },
+    {
+      "id": "todo-jun-1",
+      "userId": "user-fiona",
+      "title": "Plan summer trip to Hokkaido & booking confirmations",
+      "date": "2025-06-18",
+      "completed": true,
+      "completedAt": "09:30",
+      "estimatedDuration": 45,
+      "priority": "medium"
+    },
+    {
+      "id": "todo-jun-2",
+      "userId": "user-fiona",
+      "title": "Mid-year performance self-review & retrospective",
+      "date": "2025-06-18",
+      "completed": true,
+      "completedAt": "14:15",
+      "estimatedDuration": 60,
+      "priority": "high"
+    },
+    {
+      "id": "todo-jul-1",
+      "userId": "user-fiona",
+      "title": "Read: \"The Design of Everyday Things\" re-read",
+      "date": "2025-07-15",
+      "completed": true,
+      "completedAt": "10:00",
+      "estimatedDuration": 45,
+      "priority": "low"
+    },
+    {
+      "id": "todo-jul-2",
+      "userId": "user-fiona",
+      "title": "Refactor REST API controllers & add test suite",
+      "date": "2025-07-15",
+      "completed": true,
+      "completedAt": "15:45",
+      "estimatedDuration": 90,
+      "priority": "high"
+    },
+    {
+      "id": "todo-aug-1",
+      "userId": "user-fiona",
+      "title": "Curate fall semester reading list & syllabus prep",
+      "date": "2025-08-20",
+      "completed": true,
+      "completedAt": "10:45",
+      "estimatedDuration": 45,
+      "priority": "medium"
+    },
+    {
+      "id": "todo-aug-2",
+      "userId": "user-fiona",
+      "title": "Order vintage brass fountain pen & chestnut ink",
+      "date": "2025-08-20",
+      "completed": true,
+      "completedAt": "13:30",
+      "estimatedDuration": 15,
+      "priority": "low"
+    },
+    {
+      "id": "todo-oct-1",
+      "userId": "user-fiona",
+      "title": "Autumn hiking trail meetup with study group",
+      "date": "2025-10-15",
+      "completed": false,
+      "estimatedDuration": 90,
+      "priority": "medium"
+    },
+    {
+      "id": "todo-oct-2",
+      "userId": "user-fiona",
+      "title": "Draft Q4 research grant progress statement",
+      "date": "2025-10-15",
+      "completed": false,
+      "estimatedDuration": 60,
+      "priority": "high"
+    },
+    {
+      "id": "todo-nov-1",
+      "userId": "user-fiona",
+      "title": "Finalize machine learning model evaluation metrics",
+      "date": "2025-11-19",
+      "completed": false,
+      "estimatedDuration": 90,
+      "priority": "high"
+    },
+    {
+      "id": "todo-nov-2",
+      "userId": "user-fiona",
+      "title": "Bake cinnamon pecan rolls for friends",
+      "date": "2025-11-19",
+      "completed": false,
+      "estimatedDuration": 45,
+      "priority": "low"
+    },
+    {
+      "id": "todo-dec-1",
+      "userId": "user-fiona",
+      "title": "2025 Year-in-Review: Lessons, gratitude & highlights",
+      "date": "2025-12-17",
+      "completed": false,
+      "estimatedDuration": 60,
+      "priority": "high"
+    },
+    {
+      "id": "todo-dec-2",
+      "userId": "user-fiona",
+      "title": "Handwrite holiday greeting cards & dispatch",
+      "date": "2025-12-17",
+      "completed": false,
+      "estimatedDuration": 45,
+      "priority": "medium"
+    },
+    {
+      "id": "todo-dyn-1",
+      "userId": "user-fiona",
+      "title": "Morning reflection & daily prioritization",
+      "date": "2026-09-19",
+      "completed": true,
+      "completedAt": "08:45",
+      "estimatedDuration": 20,
+      "priority": "low"
+    },
+    {
+      "id": "todo-dyn-2",
+      "userId": "user-fiona",
+      "title": "Review schedule & focus sprint",
+      "date": "2026-09-19",
+      "completed": false,
+      "estimatedDuration": 60,
+      "priority": "high"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-f-1",
+      "userId": "user-fiona",
+      "title": "Morning Routine",
+      "date": "2025-09-17",
+      "startTime": "07:00",
+      "endTime": "08:00",
+      "category": "routine",
+      "annotation": "Good morning!",
+      "notes": "Espresso & reflection"
+    },
+    {
+      "id": "evt-f-2",
+      "userId": "user-fiona",
+      "title": "Algorithms (Class)",
+      "date": "2025-09-17",
+      "startTime": "09:00",
+      "endTime": "10:30",
+      "category": "class",
+      "notes": "Dynamic programming & trees"
+    },
+    {
+      "id": "evt-f-3",
+      "userId": "user-fiona",
+      "title": "Team Meeting",
+      "date": "2025-09-17",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "category": "meeting",
+      "notes": "Sprint planning"
+    },
+    {
+      "id": "evt-f-4",
+      "userId": "user-fiona",
+      "title": "Free time",
+      "date": "2025-09-17",
+      "startTime": "13:00",
+      "endTime": "14:00",
+      "category": "freetime",
+      "annotation": "Maybe lunch here?",
+      "notes": "Unwind & stroll"
+    },
+    {
+      "id": "evt-f-5",
+      "userId": "user-fiona",
+      "title": "Research",
+      "date": "2025-09-17",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "category": "research",
+      "notes": "Literature review on generative agents"
+    },
+    {
+      "id": "evt-f-6",
+      "userId": "user-fiona",
+      "title": "Gym",
+      "date": "2025-09-17",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "category": "gym",
+      "notes": "Strength training & stretch"
+    },
+    {
+      "id": "evt-f-7",
+      "userId": "user-fiona",
+      "title": "Dinner with Friends",
+      "date": "2025-09-17",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "category": "social",
+      "annotation": "Good food, Good mood!",
+      "notes": "Trattoria downtown"
+    },
+    {
+      "id": "evt-jan-1",
+      "userId": "user-fiona",
+      "title": "New Year Strategic Vision",
+      "date": "2025-01-15",
+      "startTime": "09:00",
+      "endTime": "11:00",
+      "category": "focus",
+      "annotation": "Fresh start!",
+      "notes": "Mapping 2025 priorities"
+    },
+    {
+      "id": "evt-jan-2",
+      "userId": "user-fiona",
+      "title": "Winter Afternoon Walk",
+      "date": "2025-01-15",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "category": "personal"
+    },
+    {
+      "id": "evt-feb-1",
+      "userId": "user-fiona",
+      "title": "Deep Learning Workshop",
+      "date": "2025-02-14",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "category": "class"
+    },
+    {
+      "id": "evt-feb-2",
+      "userId": "user-fiona",
+      "title": "Valentine Bistro Dinner",
+      "date": "2025-02-14",
+      "startTime": "18:30",
+      "endTime": "20:30",
+      "category": "social",
+      "annotation": "Romantic evening!"
+    },
+    {
+      "id": "evt-mar-1",
+      "userId": "user-fiona",
+      "title": "Spring Research Symposium",
+      "date": "2025-03-18",
+      "startTime": "13:00",
+      "endTime": "15:30",
+      "category": "research"
+    },
+    {
+      "id": "evt-mar-2",
+      "userId": "user-fiona",
+      "title": "Routine Health Checkup",
+      "date": "2025-03-18",
+      "startTime": "16:30",
+      "endTime": "17:30",
+      "category": "personal"
+    },
+    {
+      "id": "evt-apr-1",
+      "userId": "user-fiona",
+      "title": "Design Sprint: UX & Typography",
+      "date": "2025-04-16",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "category": "work"
+    },
+    {
+      "id": "evt-apr-2",
+      "userId": "user-fiona",
+      "title": "Botanical Garden Drawing",
+      "date": "2025-04-16",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "category": "personal",
+      "annotation": "Spring blossoms"
+    },
+    {
+      "id": "evt-may-1",
+      "userId": "user-fiona",
+      "title": "HCI Paper Presentation",
+      "date": "2025-05-20",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "category": "research"
+    },
+    {
+      "id": "evt-may-2",
+      "userId": "user-fiona",
+      "title": "Evening Yoga & Pilates",
+      "date": "2025-05-20",
+      "startTime": "18:00",
+      "endTime": "19:15",
+      "category": "gym"
+    },
+    {
+      "id": "evt-jun-1",
+      "userId": "user-fiona",
+      "title": "Summer Solstice Team Lunch",
+      "date": "2025-06-18",
+      "startTime": "12:00",
+      "endTime": "14:00",
+      "category": "social"
+    },
+    {
+      "id": "evt-jun-2",
+      "userId": "user-fiona",
+      "title": "Travel Planning Session",
+      "date": "2025-06-18",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "category": "personal"
+    },
+    {
+      "id": "evt-jul-1",
+      "userId": "user-fiona",
+      "title": "Product Architecture Review",
+      "date": "2025-07-15",
+      "startTime": "10:30",
+      "endTime": "12:00",
+      "category": "work"
+    },
+    {
+      "id": "evt-jul-2",
+      "userId": "user-fiona",
+      "title": "Sunset Paddle & Stroll",
+      "date": "2025-07-15",
+      "startTime": "18:00",
+      "endTime": "19:30",
+      "category": "personal"
+    },
+    {
+      "id": "evt-aug-1",
+      "userId": "user-fiona",
+      "title": "Fall Semester Kickoff & Syllabus Review",
+      "date": "2025-08-20",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "category": "class"
+    },
+    {
+      "id": "evt-aug-2",
+      "userId": "user-fiona",
+      "title": "Coffee Catchup with Mentor",
+      "date": "2025-08-20",
+      "startTime": "14:30",
+      "endTime": "16:00",
+      "category": "meeting"
+    },
+    {
+      "id": "evt-oct-1",
+      "userId": "user-fiona",
+      "title": "Autumn Trail Walk",
+      "date": "2025-10-15",
+      "startTime": "15:00",
+      "endTime": "17:00",
+      "category": "personal"
+    },
+    {
+      "id": "evt-nov-1",
+      "userId": "user-fiona",
+      "title": "Thanksgiving Gathering & Cooking",
+      "date": "2025-11-19",
+      "startTime": "17:00",
+      "endTime": "20:00",
+      "category": "social"
+    },
+    {
+      "id": "evt-dec-1",
+      "userId": "user-fiona",
+      "title": "Holiday Celebration & Retrospective",
+      "date": "2025-12-17",
+      "startTime": "16:00",
+      "endTime": "19:00",
+      "category": "social",
+      "annotation": "Celebrate 2025!"
+    },
+    {
+      "id": "sched-todo-sep-2-1789791801651",
+      "title": "LeetCode (2 problems)",
+      "date": "2025-09-17",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "category": "work",
+      "todoId": "todo-sep-2",
+      "notes": "Auto-scheduled (60m)",
+      "userId": "user-fiona"
+    },
+    {
+      "id": "sched-todo-sep-5-1789791801651",
+      "title": "Plan next week",
+      "date": "2025-09-17",
+      "startTime": "10:30",
+      "endTime": "11:00",
+      "category": "work",
+      "todoId": "todo-sep-5",
+      "notes": "Auto-scheduled (30m)",
+      "userId": "user-fiona"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Digital Planner",
+  "description": "A refined digital notebook planner combining calendar timelines, recurring Google Calendar style schedules, interactive todos with straight strikethrough animations, and persistent PostgreSQL cloud storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
